@@ -1,0 +1,77 @@
+:root {
+    --height-header: 60px;
+    --height-search: 40px;
+    --height-todolist-header: 30px;
+
+    --width-todolist: 400px;
+
+    --color-green: rgb(30, 255, 0);
+    --color-red-button: rgb(148, 21, 21);
+    --color-red-li-hover: rgb(27, 172, 8);
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow:scroll;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.search_header{
+    text-align: center;
+    height: var(--height-header);
+    width:100%;
+    background-color:lightskyblue;
+}
+
+.search_input{
+    height: var(--height-search);
+    width: auto;
+    margin: 10px;
+    
+    /* background-image: url("search.jpg");
+    background-position: 10px center;
+    background-repeat: no-repeat; */
+    
+    border: 2px solid rgb(21, 21, 21);
+    border-radius: 25rem;
+}
+
+.search_input:hover{
+    font-size: 1.6rem;
+}
+
+.search_input:active{
+    font-size: 1.0rem;
+}
+
+.search_info{
+    margin:20px;
+    text-align: center;
+}
+
+.bit_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+/* ul li {
+    display: flex;
+    justify-content: space-between;
+} */
+div{
+    display: flex;
+    align-items: center;
+}
